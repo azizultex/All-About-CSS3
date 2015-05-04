@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS3 Persective </title>
+	<style>
+
+	.transformed {
+		width: 300px;
+		height: 100px;
+		background-color: yellow;
+		border: 1px solid black;
+		transform: rotate(30deg);
+		transform-origin: 20% 40%;
+	}
+	</style>
+</head>
+<body>
+<!-- 
+1. Transition ( property | duration | timing-function | delay )
+	- transition-property: none|all|property|initial|inherit;
+	- transition-duration: time|initial|inherit;
+	- transition-timing-function: ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier()|initial|inherit; (http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transition-timing-function3)
+	- transition-delay: time|initial|inherit;
+	
+2. Transform
+	1. 2D Transform methods
+		- translate()
+		- rotate()
+		- scale()
+		- skewX()
+		- skewY()
+		- matrix()
+	2. Transform Properties 
+		- Perspective (left-right : x axis, top-bottom : y axis;https://css-tricks.com/almanac/properties/p/perspective/)
+		
+	3. 3D Transform methods
+
+
+3. Animation (animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction)
+
+
+	
+		
+-->
+  <div class="mainDiv">
+	  <div class="transformed">
+		<h3>This is heading three</h3>
+	  </div>
+  </div>
+
+</body>
+</html>
+	
