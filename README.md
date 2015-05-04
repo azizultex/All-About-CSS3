@@ -20,32 +20,30 @@
 	3. 3D Transform methods
 3. Animation (animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction)
 
+	FLEXBOX: 
+
+	Properties for the Parent (flex container)
+
+	1. display: flex;
+	2. flex-direction: row | row-reverse | column | column-reverse;
+	3. flex-wrap: nowrap | wrap | wrap-reverse;
+	4. flex-flow: flex-direction flex-wrap;
+	5. justify-content: flex-start | flex-end | center | space-between | space-around;
+	6. align-items: flex-start | flex-end | center | baseline | stretch;
+	7. align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+	8. 
+
+	Properties for the Children (flex items)
+
+	1. flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+	2. order: <integer>;
+	3. flex-grow: <number>; /* default 0 */
+	4. flex-shrink: <number>; /* default 1 */
+	5. flex-basis: <length> | auto; /* default auto */
+	6. align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 
-		FLEXBOX: 
-		
-		Properties for the Parent (flex container)
-		
-		1. display: flex;
-		2. flex-direction: row | row-reverse | column | column-reverse;
-		3. flex-wrap: nowrap | wrap | wrap-reverse;
-		4. flex-flow: flex-direction flex-wrap;
-		5. justify-content: flex-start | flex-end | center | space-between | space-around;
-		6. align-items: flex-start | flex-end | center | baseline | stretch;
-		7. align-content: flex-start | flex-end | center | space-between | space-around | stretch;
-		8. 
-		
-		Properties for the Children (flex items)
-		
-		1. flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-		2. order: <integer>;
-		3. flex-grow: <number>; /* default 0 */
-		4. flex-shrink: <number>; /* default 1 */
-		5. flex-basis: <length> | auto; /* default auto */
-		6. align-self: auto | flex-start | flex-end | center | baseline | stretch;
-		
-		
-		Resources: 
-		
-		https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	Resources: 
+
+	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
