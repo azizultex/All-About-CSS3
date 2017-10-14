@@ -1,0 +1,18 @@
+{
+  "name": "All-About-CSS3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azizultex/All-About-CSS3/issues"
+  },
+  "homepage": "https://github.com/azizultex/All-About-CSS3#readme",
+  "devDependencies": {
+  }
+}
