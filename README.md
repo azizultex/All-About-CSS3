@@ -43,7 +43,10 @@
 	6. align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 
-	Resources: 
 
+	Using BrowserSync resource below.
+
+	Resources: 
+	https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
 	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
