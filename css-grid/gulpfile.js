@@ -10,5 +10,5 @@ gulp.task('bs', function(){
 });
 
 gulp.task("default", ['bs'], function(){
-	gulp.watch("*.html").on('change', bs.reload);
+	gulp.watch(["*.html", "*.css"]).on('change', bs.reload);
 });
